@@ -9,7 +9,7 @@ function Cart(){
 
     const getallcartprods=async()=>{
         try{
-            let res=await axios.get("http://localhost:5000/api/v1/products/cart");
+            let res=await axios.get("https://mystore-mern-backend.onrender.com/api/v1/products/cart");
             setcartprods(res.data.cartprods);
         }
         catch(err){
@@ -18,7 +18,7 @@ function Cart(){
     }
 
     const deleteprod=async (i)=>{
-        await axios.delete(`http://localhost:5000/api/v1/products/cart/${i}`);
+        await axios.delete(`https://mystore-mern-backend.onrender.com/api/v1/products/cart/${i}`);
         getallcartprods();
     }
 

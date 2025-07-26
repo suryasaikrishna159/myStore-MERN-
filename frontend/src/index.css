@@ -1,0 +1,230 @@
+.headingbox{
+    height: 100px;
+    
+    margin-bottom: 50px;
+    background-color: rgb(236, 215, 189);
+    color: rgb(59, 38, 10);
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+
+    justify-content: space-between;
+}
+.maincontent{
+    display: flex;
+}
+.leftnavbar{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid rgb(211, 206, 206);
+    padding-right: 20px;
+    padding-left: 3px;
+}
+.categorybox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button{
+    background-color: white;
+    border: none;
+    text-align: left;
+}
+button:hover{
+    background-color: rgb(189, 194, 198);
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
+.clear{
+    background-color: rgb(245, 59, 59);
+    color: white;
+    height: 20px;
+    width: 40%;
+    font-weight: 700;
+
+    padding: 2px;
+    text-align: center;
+
+    position: relative;
+    left: 10%;
+}
+.productscontainer{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.brand{
+    color: rgb(1, 91, 130);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.name{
+    color: rgb(0, 0, 0);
+}
+h4{
+    color: rgb(0, 0, 0);
+}
+.foundp{
+    position: relative;
+    left: 50%;
+    font-weight: bold;
+}
+.sortbox{
+    position: relative;
+    left: 90%;
+    bottom: 30px;
+}
+
+
+.productcard{
+    margin: 10px;
+    margin-bottom: 18px;
+    height: 390px;
+    width: 200px;
+    background-color: rgb(230, 230, 230);
+    padding: 10px;
+    padding-bottom: 0px;
+    
+    border: 1px solid rgb(157, 152, 152);
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+.rating{
+    position: relative;
+    left: 80%;
+    bottom: 35%;
+}
+
+.search{
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: 700;
+    border:1px solid  rgb(185, 178, 178);
+}
+
+.pricecss{
+    position: relative;
+    left: 20%;
+}
+
+.selectleft{
+    padding: 3px;
+    width: 80%;
+}
+.selectsort{
+    padding: 3px;
+}
+.links{
+    display: flex;
+    padding-right: 50px;
+    gap: 50px;
+}
+.home{
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+}
+.addtocartbtn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 99, 99);
+    position: relative;
+    bottom: 7%;
+    left: 30%;
+
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    
+    
+
+    border-radius: 4px;
+}
+.quantity{
+    width: 20%;
+    margin-bottom: 10px;
+}
+.deliveryinputs{
+    position: relative;
+    bottom: 13%;
+
+}
+
+.delfrmcartbtn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    position: relative;
+
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 5px;
+    
+
+    border-radius: 4px;
+}
+
+.cartprodcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+
+    padding-left: 30px;
+}
+.subheading{
+    text-align: center;
+    color: rgb(122, 81, 29);
+    padding-left: 50px;
+    border: 1px solid rgb(190, 177, 177);
+}
+
+.outer{
+    display: flex;
+}
+.ordersummary{
+    width: 20%;
+    border-left: 1px solid rgb(146, 141, 141);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.subheadingtwo{
+    text-align: center;
+    color: rgb(122, 81, 29);
+    padding-left: 50px;
+    border-bottom: 1px solid rgb(190, 177, 177);
+}
+
+.placeo{
+    background-color: rgb(136, 32, 32);
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 3px;
+    position: relative;
+    left: 30%;
+    top: 40%;
+}
+.stat{
+    text-align: center;
+    position: relative;
+    top: 20%;
+    font-weight: 700;
+    font-size: larger;
+}
+span{
+    color: rgb(34, 170, 34);
+}
+
+.empty{
+    text-align: center;
+    font-weight: 700;
+    font-size: larger;
+    margin-top: 10%;
+}

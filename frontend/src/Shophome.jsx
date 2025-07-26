@@ -15,14 +15,14 @@ function Shophome(){
     const [allproducts,setallproducts]=useState([]);
 
     const addtocart=async (u,n,p,r,co,ca,q)=>{
-        await axios.post("http://localhost:5000/api/v1/products/cart",{url:u,name:n,price:p, rating:r, company:co, category:ca, quantity:q})
+        await axios.post("https://mystore-mern-backend.onrender.com/api/v1/products/cart",{url:u,name:n,price:p, rating:r, company:co, category:ca, quantity:q})
     }
     
     
 
     const gettingprods = async () => {
         try {
-            let url = "http://localhost:5000/api/v1/products?";
+            let url = "https://mystore-mern-backend.onrender.com/api/v1/products?";
             let query = [];
 
             if (category && category !== "all") {
